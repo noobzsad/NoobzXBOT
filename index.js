@@ -47,19 +47,19 @@ const { ind } = require('./language')
 /********** MENU SETTING **********/
 const vcard = 'BEGIN:VCARD\n' 
             + 'VERSION:3.0\n' 
-            + 'FN:Admin Shizuka BOT\n' 
-            + 'ORG: Pengembang Shizuka BOT;\n' 
-            + 'TEL;type=CELL;type=VOICE;waid=6281281872699:+62 812-8187-2699\n' 
+            + 'FN:Admin Noobz BOT\n' 
+            + 'ORG: Pengembang Noobz BOT;\n' 
+            + 'TEL;type=CELL;type=VOICE;waid=6285876154630:+62 858-7615-4630\n' 
             + 'END:VCARD'
-prefix = '$'
+prefix = '!'
 blocked = []   
-limitawal = 99999
+limitawal = 30
 memberlimit = 0
-cr = '*SHIZUKA THIS IS ALREADY VERIFIED*'
+cr = '*NOOBZBOT THIS IS ALREADY VERIFIED*'
 
 /******** OWNER NUMBER**********/
-const ownerNumber = ["6281212594112@s.whatsapp.net"] 
-const pacarNumber = ["6281281872699@s.whatsapp.net"]
+const ownerNumber = ["6285876154630@s.whatsapp.net"] 
+const pacarNumber = ["6285876154630@s.whatsapp.net"]
 /************************************/
 
        
