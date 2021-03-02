@@ -52,7 +52,7 @@ const vcard = 'BEGIN:VCARD\n'
             + 'TEL;type=CELL;type=VOICE;waid=6285876154630:+62 858-7615-4630\n' 
             + 'END:VCARD'
 prefix = '!'
-blocked = []   
+blocked = ["6289676575310@s.whatsapp.net"]   
 limitawal = 30
 memberlimit = 0
 cr = '*NOOBZXBOT THIS IS ALREADY VERIFIED*'
