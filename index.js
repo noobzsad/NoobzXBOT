@@ -47,15 +47,15 @@ const { ind } = require('./language')
 /********** MENU SETTING **********/
 const vcard = 'BEGIN:VCARD\n' 
             + 'VERSION:3.0\n' 
-            + 'FN:Admin Noobz BOT\n' 
-            + 'ORG: Pengembang Noobz BOT;\n' 
+            + 'FN:Admin NoobzX BOT\n' 
+            + 'ORG: Pengembang NoobzX BOT;\n' 
             + 'TEL;type=CELL;type=VOICE;waid=6285876154630:+62 858-7615-4630\n' 
             + 'END:VCARD'
 prefix = '!'
 blocked = []   
 limitawal = 30
 memberlimit = 0
-cr = '*NOOBZBOT THIS IS ALREADY VERIFIED*'
+cr = '*NOOBZXBOT THIS IS ALREADY VERIFIED*'
 
 /******** OWNER NUMBER**********/
 const ownerNumber = ["6285876154630@s.whatsapp.net"] 
@@ -859,7 +859,7 @@ itsmeiky.on('group-participants-update', async (anu) => {
                  if (!isRegistered) return reply( ind.noregis())
 				if (isLimit(sender)) return reply(ind.limitend(pusname))
 				if (!isPremium) return reply('Maaf kamu bukan user premium!')
-				let ainezz = fs.readFileSync('./mp3/WhatsApp-Ptt-2021-02-10-at-02.39.39.opus')
+				let ainezz = fs.readFileSync('./mp3/WhatsApp-Ptt-2021-02-10-at-02.39.39.mp3')
 				itsmeiky.sendMessage(from, ainezz, MessageType.audio, { quoted: iky, ptt: true })
 				await limitAdd(sender)
 				break
@@ -877,7 +877,7 @@ itsmeiky.on('group-participants-update', async (anu) => {
                  if (!isRegistered) return reply( ind.noregis())
 				if (isLimit(sender)) return reply(ind.limitend(pusname))
 				if (!isPremium) return reply('Maaf kamu bukan user premium!')
-				let aineesi = fs.readFileSync('./mp3/Loli-Saying-Onii-Chan-Sound.opus')
+				let aineesi = fs.readFileSync('./mp3/Loli-Saying-Onii-Chan-Sound.mp3')
 				itsmeiky.sendMessage(from, aineesi, MessageType.audio, { quoted: iky, ptt: true })
 				await limitAdd(sender)
 				break
@@ -895,7 +895,7 @@ itsmeiky.on('group-participants-update', async (anu) => {
                  if (!isRegistered) return reply( ind.noregis())
 				if (isLimit(sender)) return reply(ind.limitend(pusname))
 				if (!isPremium) return reply('Maaf kamu bukan user premium!')
-				let aineesii = fs.readFileSync('./mp3/little-girl-sayingtalking-hello-sound-effectcute-sound-effectsadorable.opus')
+				let aineesii = fs.readFileSync('./mp3/little-girl-sayingtalking-hello-sound-effectcute-sound-effectsadorable.mp3')
 				itsmeiky.sendMessage(from, aineesii, MessageType.audio, { quoted: iky, ptt: true })
 				await limitAdd(sender)
 				break
