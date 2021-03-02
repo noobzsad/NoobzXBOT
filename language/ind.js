@@ -126,7 +126,7 @@ exports.menu = (pushname, prefix, getLevelingLevel, getLevelingXp, sender, reqXp
 ◪ *INFO DEVELOPER*
   ❏ Nama: NoobzX
   ❏ Wa: wa.me/6285876154630
-  ❏ Ig: https://instagram.com/noobz.sad.offc_?igshid=12aqnq0lfmndg
+  ❏ Ig: https://instagram.com/noobz.sad.offc_
   ----------------------------------
 ◪ *INFO SHIZUKA*
   ❏ Nama: NoobzX 
