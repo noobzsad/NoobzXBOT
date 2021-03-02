@@ -3262,12 +3262,12 @@ itsmeiky.on('group-participants-update', async (anu) => {
 					const uangku = checkATMuser(sender)
                     wew = fs.readFileSync(`./src/logo.jpg`)
                     shiz = ` ◪ *INFO DEVELOPER*
-  ❏ Nama: ItsmeikyXSec404
-  ❏ Wa: wa.me/6281281872699
-  ❏ Ig: https://instagram.com/itsmeikyxsec404
+  ❏ Nama: NoobzX
+  ❏ Wa: wa.me/6285876154630
+  ❏ ig: https://instagram.com/noobz.sad.offc_
   ----------------------------------
-◪ *INFO SHIZUKA*
-  ❏ Nama: SHIZUKA 
+◪ *INFO NoobzXBOT*
+  ❏ Nama: NoobzXBOT
   ❏ Web: https://shizukaa.xyz/
   ❏ Web Api: https://shizukaa.xyz/
   ----------------------------------
@@ -4612,19 +4612,19 @@ itsmeiky.on('group-participants-update', async (anu) => {
 					itsmeiky.sendMessage(from, 'Waalaikumusalam',MessageType.text, { quoted: iky} )
 					break
 		case 'kontol':
-					itsmeiky.sendMessage(from, 'Gunakan bahasa yang benar\nAnda akan kami banned!\nHubungi kami : wa.me/6281281872699',MessageType.text, { quoted: iky} )
+					itsmeiky.sendMessage(from, 'Gunakan bahasa yang benar\nAnda akan kami banned!\nHubungi kami : wa.me/6285876154630',MessageType.text, { quoted: iky} )
 					break
 		case 'meiky':
-					itsmeiky.sendMessage(from, 'Gunakan bahasa yang benar\nAnda akan kami banned!\nHubungi kami : wa.me/6281281872699',MessageType.text, { quoted: iky} )
+					itsmeiky.sendMessage(from, 'Gunakan bahasa yang benar\nAnda akan kami banned!\nHubungi kami : wa.me/6285876154630',MessageType.text, { quoted: iky} )
 					break
 		case 'jembut':
-					itsmeiky.sendMessage(from, 'Gunakan bahasa yang benar\nAnda akan kami banned!\nHubungi kami : wa.me/6281281872699',MessageType.text, { quoted: iky} )
+					itsmeiky.sendMessage(from, 'Gunakan bahasa yang benar\nAnda akan kami banned!\nHubungi kami : wa.me/6285876154630',MessageType.text, { quoted: iky} )
 					break
 		case 'ngentod':
-					itsmeiky.sendMessage(from, 'Gunakan bahasa yang benar\nAnda akan kami banned!\nHubungi kami : wa.me/6281281872699',MessageType.text, { quoted: iky} )
+					itsmeiky.sendMessage(from, 'Gunakan bahasa yang benar\nAnda akan kami banned!\nHubungi kami : wa.me/6285876154630',MessageType.text, { quoted: iky} )
 					break
 		case 'kntl':
-					itsmeiky.sendMessage(from, 'Gunakan bahasa yang benar\nAnda akan kami banned!\nHubungi kami : wa.me/6281281872699',MessageType.text, { quoted: iky} )
+					itsmeiky.sendMessage(from, 'Gunakan bahasa yang benar\nAnda akan kami banned!\nHubungi kami : wa.me/6285876154630',MessageType.text, { quoted: iky} )
 					break
 
 		case 'wa.me':
