@@ -859,7 +859,7 @@ itsmeiky.on('group-participants-update', async (anu) => {
                  if (!isRegistered) return reply( ind.noregis())
 				if (isLimit(sender)) return reply(ind.limitend(pusname))
 				if (!isPremium) return reply('Maaf kamu bukan user premium!')
-				let ainezz = fs.readFileSync('./mp3/WhatsApp-Ptt-2021-02-10-at-02.39.39.mp3')
+				let ainezz = fs.readFileSync('./mp3/WhatsApp-Ptt-2021-02-10-at-02.39.39.opus')
 				itsmeiky.sendMessage(from, ainezz, MessageType.audio, { quoted: iky, ptt: true })
 				await limitAdd(sender)
 				break
@@ -877,7 +877,7 @@ itsmeiky.on('group-participants-update', async (anu) => {
                  if (!isRegistered) return reply( ind.noregis())
 				if (isLimit(sender)) return reply(ind.limitend(pusname))
 				if (!isPremium) return reply('Maaf kamu bukan user premium!')
-				let aineesi = fs.readFileSync('./mp3/Loli-Saying-Onii-Chan-Sound.mp3')
+				let aineesi = fs.readFileSync('./mp3/Loli-Saying-Onii-Chan-Sound.opus')
 				itsmeiky.sendMessage(from, aineesi, MessageType.audio, { quoted: iky, ptt: true })
 				await limitAdd(sender)
 				break
@@ -895,7 +895,7 @@ itsmeiky.on('group-participants-update', async (anu) => {
                  if (!isRegistered) return reply( ind.noregis())
 				if (isLimit(sender)) return reply(ind.limitend(pusname))
 				if (!isPremium) return reply('Maaf kamu bukan user premium!')
-				let aineesii = fs.readFileSync('./mp3/little-girl-sayingtalking-hello-sound-effectcute-sound-effectsadorable.mp3')
+				let aineesii = fs.readFileSync('./mp3/little-girl-sayingtalking-hello-sound-effectcute-sound-effectsadorable.opus')
 				itsmeiky.sendMessage(from, aineesii, MessageType.audio, { quoted: iky, ptt: true })
 				await limitAdd(sender)
 				break
