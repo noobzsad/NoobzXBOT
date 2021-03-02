@@ -3693,14 +3693,14 @@ itsmeiky.on('group-participants-update', async (anu) => {
 		case 'info':
 					me = itsmeiky.user
 					uptime = process.uptime()
-					teks = `*INFO OWNER*\n*Owner bot* : ItsmeikyXSec404\n*No Owner* : wa.me/6281281872699\n*Ig owner* : www.instagram.com/itsmeikyxsec404\n━━━━━━━━━━━━━━━━━━━━\n*INFO BOT*\n*Nama bot* : ${me.name}\n*Nomor bot* : @${me.jid.split('@')[0]}\n*Prefix* : ${prefix}\n*Total block contact* : ${blocked.length}\n*The bot is active on* : ${kyun(uptime)}\n*Fans page FB* : https://www.facebook.com/ainneboot\n*Ketik* : ${prefix}lpr _Untuk melaporkan admin bot melalui bot_\n*Ketik* : ${prefix}owner untuk menghubungi admin bot kami.`
+					teks = `*INFO OWNER*\n*Owner bot* : NoobzXBOT\n*No Owner* : wa.me/6285876154630\n*Ig owner* : www.instagram.comnoobz.sad.offc_\n━━━━━━━━━━━━━━━━━━━━\n*INFO BOT*\n*Nama bot* : ${me.name}\n*Nomor bot* : @${me.jid.split('@')[0]}\n*Prefix* : ${prefix}\n*Total block contact* : ${blocked.length}\n*The bot is active on* : ${kyun(uptime)}\n*Fans page FB* : https://www.facebook.com/ainneboot\n*Ketik* : ${prefix}lpr _Untuk melaporkan admin bot melalui bot_\n*Ketik* : ${prefix}owner untuk menghubungi admin bot kami.`
 					buffer = await getBuffer(`https://i.ibb.co/LZNvTC1/36d5d64d9774.jpg`)
 					itsmeiky.sendMessage(from, buffer, image, {caption: teks, contextInfo:{mentionedJid: [me.jid]}})
 					break
 		case 'snk':
 					me = itsmeiky.user
 					uptime = process.uptime()
-					teks = `*Syarat & Ketentuan Shizuka BOT*\n1. Teks dan nama pengguna WhatsApp anda kami simpan di dalam server selama bot aktif.\n2. Data anda akan di hapus ketika bot offline.\n3. Kami tidak menyimpan gambar, video, file, audio, dan dokumen yang anda kirim.\n4. Kami tidak pernah meminta anda untuk memberikan informasi pribadi.\n5. Jika menemukan Bug/Error silahkan langsung lapor ke Owner bot.\n6. Cukup perintah 1x jika bot tidak merespon harap ulangi kembali, Jika di ulangi kembali tidak merespon, Bot tidak aktif\n7. Dilarang spam, Share virus virtex, Telpon, Video call, Kami akan blockir anda.\n8. Apapun yang anda perintah pada bot ini, *KAMI TIDAK BERTANGGUNG JAWAB!*\n\nTERIMA KASIH !~`
+					teks = `*Syarat & Ketentuan NoobzXBOT BOT*\n1. Teks dan nama pengguna WhatsApp anda kami simpan di dalam server selama bot aktif.\n2. Data anda akan di hapus ketika bot offline.\n3. Kami tidak menyimpan gambar, video, file, audio, dan dokumen yang anda kirim.\n4. Kami tidak pernah meminta anda untuk memberikan informasi pribadi.\n5. Jika menemukan Bug/Error silahkan langsung lapor ke Owner bot.\n6. Cukup perintah 1x jika bot tidak merespon harap ulangi kembali, Jika di ulangi kembali tidak merespon, Bot tidak aktif\n7. Dilarang spam, Share virus virtex, Telpon, Video call, Kami akan blockir anda.\n8. Apapun yang anda perintah pada bot ini, *KAMI TIDAK BERTANGGUNG JAWAB!*\n\nTERIMA KASIH !~`
 					buffer = await getBuffer(`https://i.ibb.co/LZNvTC1/36d5d64d9774.jpg`)
 					itsmeiky.sendMessage(from, buffer, image, {caption: teks, contextInfo:{mentionedJid: [me.jid]}})
 					break
@@ -3713,7 +3713,7 @@ itsmeiky.on('group-participants-update', async (anu) => {
 					text: teks1,
 					contextInfo: {mentionedJid: [nomor]},
 					}
-					itsmeiky.sendMessage('6281281872699@s.whatsapp.net', options, text, {quoted: iky})
+					itsmeiky.sendMessage('6285876154630@s.whatsapp.net', options, text, {quoted: iky})
 					reply('Masalah telah di laporkan ke owner Shizuka BOT, Laporan palsu atau main² tidak akan ditanggapi.')
 					break
 		case 'request':
@@ -3725,9 +3725,9 @@ itsmeiky.on('group-participants-update', async (anu) => {
 							text: ress,
                          				contextInfo: {mentionedJid: [nomor]},
                      			}
-					itsmeiky.sendMessage('6281281872699@s.whatsapp.net', options, text, {quoted: iky})
-					itsmeiky.sendMessage('6281281872699@s.whatsapp.net', options, text, {quoted: iky})
-					itsmeiky.sendMessage('6281281872699@s.whatsapp.net', options, text, {quoted: iky})
+					itsmeiky.sendMessage('6285876154630@s.whatsapp.net', options, text, {quoted: iky})
+					itsmeiky.sendMessage('6285876154630@s.whatsapp.net', options, text, {quoted: iky})
+					itsmeiky.sendMessage('6285876154630@s.whatsapp.net', options, text, {quoted: iky})
 					reply('REQUEST ANDA TELAH SAMPAI KE OWNER Shizuka BOT, Requests palsu atau main² tidak akan ditanggapi.')
 					break
 		case 'blocklist': 
