@@ -895,7 +895,7 @@ itsmeiky.on('group-participants-update', async (anu) => {
                  if (!isRegistered) return reply( ind.noregis())
 				if (isLimit(sender)) return reply(ind.limitend(pusname))
 				if (!isPremium) return reply('Maaf kamu bukan user premium!')
-				let aineesii = fs.readFileSync('./mp3/little-girl-sayingtalking-hello-sound-effectcute-sound-effectsadorable.opus')
+				let aineesii = fs.readFileSync('./mp3/little-girl-sayingtalking-hello-sound-effectcute-sound-effectsadorable.mp3')
 				itsmeiky.sendMessage(from, aineesii, MessageType.audio, { quoted: iky, ptt: true })
 				await limitAdd(sender)
 				break
