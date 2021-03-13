@@ -1918,23 +1918,23 @@ itsmeiky.on('group-participants-update', async (anu) => {
 				itsmeiky.sendMessage(from, lagu, audio, {mimetype: 'audio/mp4', filename: `${data.result.title}.mp3`, quoted: iky})
 				await limitAdd(sender)
 				break
-		case 'play':   
-				 // Fix Bug By NoobzX				
-                 if (!isRegistered) return reply( ind.noregis())
-				if (isLimit(sender)) return reply(ind.limitend(pusname))
-				if (!isPremium) return reply('Maaf kamu bukan user premium!')
-				if (isBanned) return reply('Maaf kamu sudah terbenned!')
-				reply(ind.wait())
-				play = body.slice(5)
-				anu = await fetchJson(`https://api.zeks.xyz/api/ytplaymp3?q=${play}&apikey=apivinz`)
-				if (anu.error) return reply(anu.error)
-				infomp3 = `*Lagu Ditemukan!!!*\nJudul : ${anu.result.title}\nSource : ${anu.result.source}\nUkuran : ${anu.result.size}\n\n*TUNGGU SEBENTAR LAGI DIKIRIM MOHON JANGAN SPAM YA SAYANG*`
-				buffer = await getBuffer(anu.result.thumbnail)
-				itsmeiky.sendMessage(from, buffer, image, {quoted: iky, caption: infomp3})
-				lagu = await getBuffer(anu.result.url_audio)
-				itsmeiky.sendMessage(from, lagu, audio, {mimetype: 'audio/mp4', filename: `${anu.result.title}.mp3`, quoted: iky})
-				await limitAdd(sender)
-				break
+		case 'play':
+        // Fix Bug By OzanDesu				
+        if (!isRegistered) return reply(ind.noregis())
+        if (isLimit(sender)) return reply(ind.limitend(pusname))
+        if (!isPremium) return reply('Maaf kamu bukan user premium!')
+        if (isBanned) return reply('Maaf kamu sudah terbenned!')
+        reply(ind.wait())
+        play = body.slice(5)
+        anu = await fetchJson(`http://api.lolhuman.xyz/api/ytplay?apikey=71ccc7357e2cf116c9c49ca0&query=${play}`)
+        if (anu.error) return reply(anu.error)
+        infomp3 = `*Lagu Ditemukan!!!*\nJudul : ${anu.result.info.title}\nChannel: ${anu.result.info.channel}\nDuration : ${anu.result.info.duration}\n\n*TUNGGU SEBENTAR LAGI DIKIRIM MOHON JANGAN SPAM YA SAYANG*`
+        buffer = await getBuffer(anu.result.info.thumbnail)
+        itsmeiky.sendMessage(from, buffer, image, { quoted: iky, caption: infomp3 })
+        lagu = await getBuffer(anu.result.audio.link)
+        itsmeiky.sendMessage(from, lagu, audio, { mimetype: 'audio/mp4', filename: `${anu.result.title}.mp3`, quoted: iky })
+        await limitAdd(sender)
+        break
 		/*case 'play2':   
 				 // Fix Bug By NoobzX				
                  if (!isRegistered) return reply( ind.noregis())
