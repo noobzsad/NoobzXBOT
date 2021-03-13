@@ -3832,7 +3832,7 @@ itsmeiky.on('group-participants-update', async (anu) => {
 					await limitAdd(sender)
 					break
 
-                case 'afk':
+                //case 'afk':
 
 	                if (!isRegistered) return reply(ind.noregis())
 
